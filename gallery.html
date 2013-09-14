@@ -1,0 +1,162 @@
+
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="photo.css">
+	<link rel="stylesheet" type="text/css" href="photo.css">
+	<meta name="description" content="Scar Photo Portfolio">
+	<meta name="keywords" content="Photography,Portfolio,Photo,Stephanie Carteiro">
+	<meta name="author" content="Stephanie Carteiro">
+	<meta charset="UTF-8">
+	<title>Gallery</title>
+<script type="text/javascript">
+
+
+/*Commercial*/
+function hoV()
+{
+	document.getElementById("sel").style.color="#fdfafa";
+	document.getElementById("pic").style.backgroundImage="url(streetc1.jpg)";
+	document.getElementById("pic4").style.backgroundImage="url(streetc2.jpg)";
+	document.getElementById("pic10").style.backgroundImage="url(streetc3.jpg)";
+
+	
+}
+
+function unhoV()
+{
+	document.getElementById("sel").style.color="#636161";
+	document.getElementById("pic").style.backgroundImage="url(street1.jpg)";
+	document.getElementById("pic4").style.backgroundImage="url(street2.jpg)";
+	document.getElementById("pic10").style.backgroundImage="url(street3.jpg)";
+	
+}
+
+/* End of Commercial*/
+/* Personal 1*/
+
+function hover()
+{
+	document.getElementById("sel1").style.color="#fdfafa";
+	document.getElementById("pic2").style.backgroundImage="url(travelc1.jpg)";
+	document.getElementById("pic8").style.backgroundImage="url(travelc2.jpg)";
+	document.getElementById("pic9").style.backgroundImage="url(travelc3.jpg)";
+
+}
+
+function unhover()
+{
+	document.getElementById("sel1").style.color="#636161";
+	document.getElementById("pic2").style.backgroundImage="url(travel1.jpg)";
+	document.getElementById("pic8").style.backgroundImage="url(travel2.jpg)";
+	document.getElementById("pic9").style.backgroundImage="url(travel3.jpg)";
+}
+
+/* End of Personal*/
+/* B&W*/
+function hover2()
+{
+	document.getElementById("sel2").style.color="#fdfafa";
+	document.getElementById("pic6").style.backgroundImage="url(bwhitec1.jpg)";
+	document.getElementById("pic7").style.backgroundImage="url(bwhitec2.jpg)";
+	document.getElementById("pic12").style.backgroundImage="url(bwhitec3.jpg)";
+}
+
+function unhover2()
+{
+	document.getElementById("sel2").style.color="#636161";
+	document.getElementById("pic6").style.backgroundImage="url(bwhite1.jpg)";
+	document.getElementById("pic7").style.backgroundImage="url(bwhite2.jpg)";
+	document.getElementById("pic12").style.backgroundImage="url(bwhite3.jpg)";
+}
+/* End of B&W*/
+/* SPECIAL*/
+function hover3()
+{
+	document.getElementById("sel3").style.color="#fdfafa";
+	document.getElementById("pic5").style.backgroundImage="url(wedc1.jpg)";
+	document.getElementById("pic3").style.backgroundImage="url(wedc2.jpg)";
+	document.getElementById("pic11").style.backgroundImage="url(wedc3.jpg)";
+}
+
+function unhover3()
+{
+	document.getElementById("sel3").style.color="#636161";
+	document.getElementById("pic5").style.backgroundImage="url(wed1.jpg)";
+	document.getElementById("pic3").style.backgroundImage="url(wed2.jpg)";
+	document.getElementById("pic11").style.backgroundImage="url(wed3.jpg)";
+}
+
+</script>
+
+</head>
+<body>
+	<!--navigation-->
+	<div class="header">
+		<div class="logo"><a class="logo2" href="index.html">SCAR | PHOTO</a></div>
+		<div class="nav">
+			<ul>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="resume.html">RESUME</a></li>
+				<li><a id="special" href="gallery.html">GALLERY</a></li>
+					<li id="hov"><a   href="blog.html "target="_top">BLOG</a>
+					<ul id="subul">
+						<li id="drop"><a class="sel" href="">NEWS</a></li>
+						<li id="drop"><a class="sel" href="clients.html">CLIENTS</a></li>
+			</ul>
+		</div>
+	</div>
+	<!--End Navigation-->
+	<div class="container2">
+	<!--Selection-->
+		<div>
+		 <ul class="nav2">
+			<li class="galselect"><a onmouseover="hoV()" onmouseout="unhoV()" id="sel" href="Street.html">STREET PHOTO</a></li>
+			<li class="galselect"><a onmouseover="hover()" onmouseout="unhover()"id="sel1" href="Travel.html">TRAVEL</a></li>
+			<li class="galselect"><a onmouseover="hover2()" onmouseout="unhover2()"id="sel2" href="BlackWhite.html">BLACK & WHITE</a></li>
+			<li class="galselect"><a onmouseover="hover3()" onmouseout="unhover3()"id="sel3" href="Wedding.html">WEDDINGS</a></li>
+		</ul>
+	</div>
+	<!--End of Selection-->
+	
+ 
+	<!--Gallery-->
+	<table class="gallery">
+		<tr class="row1">
+			<td id="pic"></td>
+			<td id="pic2"></td>
+			<td id="pic3"></td>
+			<td id="pic4"></td>
+		</tr>
+			<tr class="row2">
+			<td id="pic5"></td>
+			<td id="pic6"></td>
+			<td id="pic7"></td>
+			<td id="pic8"></td>
+		</tr>
+			<tr class="row3">
+			<td id="pic9"></td>
+			<td id="pic10"></td>
+			<td id="pic11"></td>
+			<td id="pic12"></td>
+		</tr>
+		
+	
+	</table>
+
+</div>
+	<!-- End of Gallery-->
+
+<div class="footer">
+<p id="copy">Axel Kanakan © 2013</p>
+<div id="social">
+<ul>
+	<a href=""><li id="f1"></li></a>
+	<a href=""><li id="t1"></li></a>
+	<a href=""><li id="w1"></li></a>
+</ul>
+</div>
+
+
+
+</body>
+</html>

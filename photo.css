@@ -1,0 +1,1031 @@
+/*fonts*/
+@font-face
+{
+
+font-family: HelveticaJr;
+src:url('HelveticaNeue-Medium.otf');
+
+
+}
+
+@font-face
+{
+font-family:Gothamm;
+src: url('Gotham-Light.otf');}
+
+@font-face
+{
+font-family:Hellight;
+src: url('HelveticaNeue-Thin.otf');}
+
+/* Basic CSS*/
+
+body{
+margin:0;
+background-color:#161515 ;
+}
+/* Basic CSS*/
+
+/*Logo*/
+
+.logo{
+	font-family: Gothamm;
+
+	font-size: 27px;
+	text-align: center;
+	width: 641px;
+	height: 40px;
+	display: inline-block;
+	color: #ce3e74;
+	position: relative;
+	right: 170px;
+	top: 4px;
+	letter-spacing: .1em;
+	float: left;
+	
+
+}
+p{
+	font-family: helvetica;
+	color: white;
+}
+
+.logo2{
+	text-decoration: none;
+	list-style: none;
+
+}
+.logo2:visited{
+	color: #ce3e74;
+
+}
+
+
+
+/* End Logo*/
+
+
+/*Navigation*/
+
+.header{
+	background:#222;  
+
+	width: 1282px;
+	height: 40px;
+	
+}
+
+.nav{
+	width: 641px;
+	color: #e4e4e4;
+	font-family: HelveticaJr;
+	height: 40px;
+	font-size: 13px;
+	letter-spacing: .3em;
+	float:right;
+	position: relative;
+	margin:0px;
+
+}
+
+ul{
+	list-style:none;
+	
+
+}
+
+ul li{
+	display: inline;
+	margin-left: 60px;
+	position: relative;
+	top: 1px;
+
+}
+
+ul li a{
+
+	text-decoration: none;
+	color:#e4e4e4;
+
+
+
+}
+
+a:hover{
+	color:#ce3e74;;
+	}
+
+#special{
+	color:#ce3e74;
+}
+
+
+/* Dropdown */
+
+.nav #subul{
+	font-size: 13px;
+	font-family: HelveticaJr;
+	position: absolute;
+	left: -9999px;
+	
+
+
+
+}
+.nav #subul #drop{
+
+	float: none;
+	position: relative;
+	right:100px;
+	top: 10px;
+ 	margin-top:1px; 
+ 	float: left; 
+
+	
+}
+
+
+
+.nav #hov:hover #subul{
+	left:0;
+}
+
+.nav #drop{
+	 width: 100px;
+	 height: 15px;
+	 background:#282727;
+	 padding: 3px; 
+}
+
+.nav #hov:hover #subul #drop:hover {
+	background-color: #ce3e74;
+
+
+}
+
+
+.nav #hov:hover .sel{
+	text-decoration: none;
+	list-style: none;
+	color:#ce3e74;
+	padding: 5px; 
+
+}
+
+
+.nav #hov:hover #subul .sel{
+	text-decoration: none;
+}
+.nav #hov:hover #subul #drop .sel:hover{
+	list-style: none;
+	color: #e4e4e4;
+}
+/* End of Navigation */
+
+
+/* Container*/
+
+table{
+	height: 100%;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+
+
+	
+	
+	
+}
+
+tr{
+	
+	width: 896px;
+	margin: 0px;
+}
+
+td{
+	width:12.5%;
+	margin: 0px;
+	background-image: url("demo.jpg");
+
+
+}
+
+/* End of Container */
+
+/* Footer */
+.footer{
+	width: 1282px;
+	height: 45px;
+	background-color:#282727;
+	margin: 0;
+
+}
+
+#copy{
+	font-size:15px;
+	color:#d1cfcf;
+	font-family:Hellight; 
+	position: relative;
+    letter-spacing: .1em;
+	float: left;
+	left: 12px;
+
+	}
+
+
+
+#social{
+	width: 350px;
+	float: right;
+	height: 40px;
+	margin-left:30px; 
+
+}
+#social ul{
+	list-style: none;
+	margin: 0px;
+}
+#social ul li{
+
+
+	width:30px;
+	height:30px;
+	float:left;
+	margin-left: 0px;
+	margin-bottom:0px;
+	margin-right:60px;
+	position: relative;
+	top:8px; 
+}
+
+#social #f1{
+	background-image:url(f1.png);
+
+}
+#social #t1{
+	background-image:url(t1.png); 
+
+}
+
+#social #w1{background-image:url(w1.png);
+
+}
+
+#social #w1:hover{
+	background-image: url(w2.png);
+}
+
+#social #t1:hover{
+	background-image: url(t2.png);
+
+}
+#social #f1:hover {
+	background-image: url(f2.png);
+}
+
+
+
+
+
+
+/* End of Footer */
+
+/* Gallery */
+
+.container2{
+	height: 100%;
+	width: 100%;
+	margin-top: 40px;
+}
+.gallery{
+	width: 70%;
+	height:80%;	
+	margin-left: 320px;
+
+}
+#pic{background-image: url("street1.jpg");
+height:33.3%;
+width: 25%;
+}
+
+
+#pic2{background-image: url("travel1.jpg");
+height:33.3%;
+width: 25%;
+}
+
+
+#pic3{background-image: url("wed2.jpg");
+height:33.3%;
+width: 25%;
+}
+
+
+#pic4{background-image: url("street2.jpg");
+height:33.3%;
+width: 25%;
+}
+
+#pic5{background-image: url("wed1.jpg");
+height:33.3%;
+width: 25%;
+}
+
+#pic6{background-image: url("bwhite1.jpg");
+height:33.3%;
+width: 25%;
+}
+
+#pic7{background-image: url("bwhite2.jpg");
+height:33.3%;
+width: 25%;
+}
+
+#pic8{background-image: url("travel2.jpg");
+height:33.3%;
+width: 25%;
+}
+
+#pic9{background-image: url("travel3.jpg");
+height:33.3%;
+width: 25%;
+}
+
+#pic10{background-image: url("street3.jpg");
+height:33.3%;
+width: 25%;
+}
+
+#pic11{background-image: url("wed3.jpg");
+height:33.3%;
+width: 25%;
+}
+
+#pic12{background-image: url("bwhite3.jpg");
+height:33.3%;
+width: 25%;
+}
+
+/*Gallery Navigation*/ 
+.nav2{
+	  width:296px;
+	  height:523px;
+	  float: left;
+	  font-family:Gothamm;
+	  font-size: 15px;
+	  letter-spacing: .2em;
+	  padding-top: 80px; 
+	  
+	
+	
+
+
+}
+
+
+.nav2 .galselect{
+	
+	margin-top: 5px;
+	margin-left: 0px;
+	position: static;
+	list-style:none;
+	display:block;
+	margin-bottom: 40px;
+
+
+}
+
+.nav2 .galselect #sel{
+
+	text-decoration: none;	
+	color:#636161;
+}
+
+.nav2 .galselect #sel1{
+
+	text-decoration: none;	
+	color:#636161;
+}
+
+.nav2 .galselect #sel2{
+
+	text-decoration: none;	
+	color:#636161;
+}
+
+.nav2 .galselect #sel3{
+
+	text-decoration: none;	
+	color:#636161;
+}
+
+
+/*.nav2 .galselect .sel:hover{
+	color:#fdfafa;
+}*/
+
+
+
+/* End Gallery Navigation */
+
+
+/*Photo Gallery section */
+/*Nav3*/
+
+
+
+/*End of Nav3*/
+
+.nav3{
+
+	  float: left;
+	  font-family:Gothamm;
+	  font-size: 15px;
+	  letter-spacing: .2em;
+	  margin-left:0px; 
+	  padding-left:30px;
+	 
+	  
+	
+}
+
+.nav3 .galselect{
+margin-left:0px; 
+display: block;
+margin-top: 15px;
+
+}
+.nav3 #sel{
+	color:#636161;;
+}
+
+
+.nav3 #sel:hover{
+	color: #fdfafa;
+}
+
+#commercial{
+
+	width:65%;
+	height:90%;	
+	margin-left: 320px;
+
+}
+/* Travel Section*/
+#photo{background-image:url("tpic1.jpg");
+height:33.3%;
+width: 25%;
+border: 10px solid 151515 ;
+}
+
+#photo2{background-image: url("tpic2.jpg");
+height:33.3%;
+width: 25%;
+border: 10px solid 151515 ;
+}
+
+#photo3{background-image: url("tpic3.jpg");
+height:33.3%;
+width: 25%;
+border: 10px solid 151515 ;
+}
+
+#photo4{background-image: url("tpic4.jpg");
+height:33.3%;
+width: 25%;
+border: 10px solid 151515 ;
+}
+
+#photo5{background-image: url("tpic5.jpg");
+height:33.3%;
+width: 25%;
+border: 10px solid 151515 ;
+}
+
+#photo6{background-image: url("tpic6.jpg");
+height:33.3%;
+width: 25%;
+border: 10px solid 151515 ;
+}
+
+#photo7{background-image: url("tpic7.jpg");
+height:33.3%;
+width: 25%;
+border: 10px solid 151515 ;
+}
+
+#photo8{background-image: url("tpic8.jpg");
+height:33.3%;
+width: 25%;
+border: 10px solid 151515 ;
+}
+
+/* End of Travel Section*/
+
+/* Street Section*/
+#photo9{background-image:url("stpic1.jpg");
+height:33.3%;
+width: 25%;
+border: 10px solid 151515 ;
+}
+
+#photo10{background-image: url("stpic2.jpg");
+height:33.3%;
+width: 25%;
+border: 10px solid 151515 ;
+}
+
+#photo11{background-image: url("stpic3.jpg");
+height:33.3%;
+width: 25%;
+border: 10px solid 151515 ;
+}
+
+#photo12{background-image: url("stpic4.jpg");
+height:33.3%;
+width: 25%;
+border: 10px solid 151515 ;
+}
+
+#photo13{background-image: url("stpic5.jpg");
+height:33.3%;
+width: 25%;
+border: 10px solid 151515 ;
+}
+
+#photo14{background-image: url("stpic6.jpg");
+height:33.3%;
+width: 25%;
+border: 10px solid 151515 ;
+}
+
+#photo15{background-image: url("stpic7.jpg");
+height:33.3%;
+width: 25%;
+border: 10px solid 151515 ;
+}
+
+#photo16{background-image: url("stpic8.jpg");
+height:33.3%;
+width: 25%;
+border: 10px solid 151515 ;
+}
+
+/* End of Street Section*/
+
+/* Wedding Section*/
+#photo17{background-image:url("wpic1.jpg");
+height:33.3%;
+width: 25%;
+border: 10px solid 151515 ;
+}
+
+#photo18{background-image: url("wpic2.jpg");
+height:33.3%;
+width: 25%;
+border: 10px solid 151515 ;
+}
+
+#photo19{background-image: url("wpic3.jpg");
+height:33.3%;
+width: 25%;
+border: 10px solid 151515 ;
+}
+
+#photo20{background-image: url("wpic4.jpg");
+height:33.3%;
+width: 25%;
+border: 10px solid 151515 ;
+}
+
+#photo21{background-image: url("wpic5.jpg");
+height:33.3%;
+width: 25%;
+border: 10px solid 151515 ;
+}
+
+#photo22{background-image: url("wpic6.jpg");
+height:33.3%;
+width: 25%;
+border: 10px solid 151515 ;
+}
+
+#photo23{background-image: url("wpic7.jpg");
+height:33.3%;
+width: 25%;
+border: 10px solid 151515 ;
+}
+
+#photo24 {background-image: url("wpic8.jpg");
+height:33.3%;
+width: 25%;
+border: 10px solid 151515 ;
+}
+
+/* End of Wedding Section*/
+
+
+/* Black & White Section*/
+#photo25{background-image:url("bwpic1.jpg");
+height:33.3%;
+width: 25%;
+border: 10px solid 151515 ;
+}
+
+#photo26{background-image: url("bwpic2.jpg");
+height:33.3%;
+width: 25%;
+border: 10px solid 151515 ;
+}
+
+#photo27{background-image: url("bwpic3.jpg");
+height:33.3%;
+width: 25%;
+border: 10px solid 151515 ;
+}
+
+#photo28{background-image: url("bwpic4.jpg");
+height:33.3%;
+width: 25%;
+border: 10px solid 151515 ;
+}
+
+#photo29{background-image: url("bwpic5.jpg");
+height:33.3%;
+width: 25%;
+border: 10px solid 151515 ;
+}
+
+#photo30{background-image: url("bwpic6.jpg");
+height:33.3%;
+width: 25%;
+border: 10px solid 151515 ;
+}
+
+#photo31{background-image: url("bwpic7.jpg");
+height:33.3%;
+width: 25%;
+border: 10px solid 151515 ;
+}
+
+#photo32 {background-image: url("bwpic8.jpg");
+height:33.3%;
+width: 25%;
+border: 10px solid 151515 ;
+}
+
+/* End of Black & White Section*/
+
+.selectedimage{
+
+	width:70%;
+	height:90%;	
+	margin-left: 320px;
+
+}
+
+.pic3{
+		width: 100%;
+		height:100%;
+		background-image: url("wood.jpg");
+}
+
+.description{
+	  width:267px;
+	  height:443px;
+	  float: left;
+	  font-family:Gothamm;
+	  font-size: 15px;
+	  border-right:1px solid #ce3e74;
+	  padding-right:10px; 
+	  margin-top: 10px;
+
+
+}
+
+.text{
+	position: relative;
+	left: 30px;
+}
+/* End of Gallery */
+
+/* Resume */
+.resume{
+	font-family: Gothamm;
+	font-size: 15px;
+	color:#d1cfcf;
+	letter-spacing: .1em;
+	position: relative;
+	left:40px;
+}
+
+.rcontainer {
+	width: 70%;
+	height: 90%;
+
+	float: right;
+	margin-right:80px; 
+}
+
+.work{
+	width: 50%;
+	height: 50%;
+
+
+
+}
+.school{
+	
+	width: 50%;
+	height: 50%;
+	float: right;
+
+}
+.resume4{
+	font-family:Hellight;
+	font-size: 15px;
+	color:#d1cfcf;
+}
+
+/* End Resume */
+
+/* About*/
+.wrapper{
+	width: 100%;
+	background:url("steph2.jpg");
+	background-size: 100% 100%;
+	background-repeat:no-repeat;   
+
+}
+
+.background{
+width: 1152px;
+height:609px;
+margin: auto;
+padding-top: 40px;
+
+
+}
+.form{
+	width: 50%;
+	height:100%;
+	
+	float: left;
+	
+	
+
+
+
+
+
+}
+
+.resume2{
+	position: relative;
+	font-family: Gothamm;
+	font-size: 20px;
+	left:155px;
+	top: 50px;
+	color: #d1cfcf;
+	letter-spacing: .1em;
+}
+
+form{
+	width: 80%;
+	margin-left: 150px;
+	margin-top: 70px;
+
+
+
+}
+
+textarea{
+	width: 315px;
+	margin:5px;
+	margin-top:20px;
+	height: 150px;
+	color: #e2e0e0;
+	
+
+}
+.about{
+	width: 50%;
+	height: 100%;
+	float: right;
+	
+}
+
+.name{
+	width: 150px;
+	height: 30px;
+	margin:5px; 
+	color: #e2e0e0;
+}
+.message{
+	margin: 5px;
+	width: 315px;
+	height: 30px;
+	margin-top: 20px;
+	color: #e2e0e0;
+	margin-bottom:20px;
+}
+.button{
+margin:0 0 10px 0;
+padding:4px 7px;
+background:#413f3f;
+border:0px;
+margin:5px; 
+width:100px;
+color: #e2e0e0; 
+}
+
+.info{
+	color:#d3d2d2;
+	font-size:15px;
+	font-family: Hellight;
+	position: relative;
+	top: 50px;
+	left:50px; 
+	line-height: 1.5em;
+}
+
+.textbox{width: 450px;
+
+}
+.resume3{	position: relative;
+	font-family: Gothamm;
+	font-size: 20px;
+	left:50px;
+	top: 50px;
+	color: #d1cfcf;
+	letter-spacing: .1em;
+
+}
+
+span{
+	font-family: Hellight;
+	font-size: 12px;
+	color:#d1cfcf; 
+
+}
+
+
+/* End About*/
+
+/* Blog */
+
+.container5{
+
+	height: 671px;
+	width: 100%;
+	background: #ce3e74;
+
+}
+
+#blog{
+width: 55%;
+height: 100%;
+
+float: left;
+margin-left:20%; 
+
+
+}
+
+#blogheader{
+	font-family: Helvetica;
+	color: #282727;
+
+}
+
+#blogpost{
+	width: 65%;
+	margin:auto; 
+	
+}
+
+#sidebar{
+	width: 20%;
+	height: 100%;
+	
+	float:left; 
+}
+
+#sidea{width: 100%;
+	height: 50%;
+	margin-top:45%; 
+}
+
+#blogimage{
+	width: 500px;
+	height: 300px;
+	background-image:url(wedding.jpg);
+}
+
+
+#blogimage2{
+	width: 500px;
+	height: 300px;
+	background-image:url(streetpho.jpg);
+}
+
+
+#blogimage3{
+	width: 500px;
+	height: 300px;
+	background-image:url(bistrot.jpg);
+}
+
+
+#dates{
+	font-family:Gothamm;
+	color: white;
+	font-size:20px;  
+	letter-spacing: .1em;
+}
+#dates ul{	
+list-style: none;
+}
+#dates ul li{
+	display: block;
+	margin-left:0;
+	margin-bottom: 10px;
+}
+#dates a:hover{
+	color:#282727;
+}
+
+#dates a:active{
+	color: #282727;
+}
+
+/* End Blog */
+
+/*Banner*/
+
+#banner{
+margin-left: 400px;
+margin-top: 100px;
+}
+
+
+/*End of Banner*/
+
+
+
+/*Client Page*/
+#clients{
+	width: 100%;
+	padding-top:10px;
+	padding-left:150px; 
+	
+
+}
+
+#clogo{
+	width:200px;
+	height:200px;
+	margin:10px; 
+	background-image:url(images/reverb.png); 
+}
+#clogo2{
+	width: 200px;
+	height: 200px;
+	margin:10px; 
+	background-image: url(images/clark.png);
+}
+#clogo3{
+	width: 200px;
+	height:200px;
+	margin:10px; 
+	background-image: url(images/Peirot.png);
+}
+
+
+#ctext{
+	float: left;
+	width: 500px;
+	position:relative;
+	left:300px;
+	top: 30px;
+	line-height: 1.5em; 
+	font-family: Hellight;
+}
+
+#clogo img{
+	
+}
+
+
+
+
+/*End of Client Page*/
+
+
+
+
+
+
+
+
